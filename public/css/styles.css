@@ -271,7 +271,8 @@ nav a span {
   font-size: 125%;
 }
 
-.about-bio p {
+.about-bio p, 
+.stacktrace p {
   font-size: 15px;
   padding-top: 40px;
 }
