@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const {projects_data} = require('./data/data.json');
 const index = require('./routes');
 const aboutMe = require('./routes/about');
 const projects = require('./routes/projects');
@@ -14,14 +13,13 @@ app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
 // router files
-app.use('/aboutme', aboutMe);
+app.use('/about', aboutMe);
 app.use('/projects', projects);
 app.use(index);
-app.use(errHandlers.fourOhfourErrHandlres);
-app.use(errHandlers.globalErrHandler);
 
 // err handlers
-
+app.use(errHandlers.fourOhfourErrHandlres);
+app.use(errHandlers.globalErrHandler);
 
 // local hosting will be held at port 3000
 app.listen(3000, ()=>{

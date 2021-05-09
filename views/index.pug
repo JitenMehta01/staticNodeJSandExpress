@@ -4,25 +4,13 @@ block content
 
   article.portfolio-intro
 
-    //- Replace with your own heading like 'My Portfolio', or 'Hey, Potential Employers', or 'Let's make the web great together!' 
     h1 Jiten Mehta Portfolio
-
-    //- Replace with a description for your portfolio, what this project is, it's purpose, what it's supposed to accomplish, etc. 
     p Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-
 
   article.portfolio-project-thumbs
     .projects-box.box.grid
     
-
-      //- Use the Pug `each` iterator to loop over the projects in your data file  
       each project in projects_data  
-        //- Use the example Pug code below and interpolated template literals as needed to dynamically generate:
-
-          //- The paths in the link's href and img's src attributes
-          //- The text 'Thumbnail' interpolated with the project title for the img's alt attribute
-          //- The project title for the h5 element's text
-
         .cell
           a(href=`/projects/${project.id}`)
             img.thumbnail(src=`${project.image_urls[project.image_urls.length -1]}`, alt='')

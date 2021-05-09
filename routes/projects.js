@@ -1,7 +1,6 @@
 const express = require('express');
 const router= express.Router();
 const {projects_data} = require('../data/data.json'); 
-console.log(projects_data);
 
 // Projects
 
@@ -16,7 +15,7 @@ router.get('/:id', function(req, res, next) {
     } else{
     const err = new Error();
     err.message = `Ooops. This page does not exist.`;
-    err.status(404);
+    err.status = 404;
     next(err);
     }
 })
