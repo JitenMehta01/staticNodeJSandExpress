@@ -53,10 +53,10 @@
             "live_link": "https://jitenmehta01.github.io/api-request/", 
             "github_link": "https://github.com/JitenMehta01/oop-word-guessing-game", 
             "image_urls": [
-            "/static/images/game-show-app/api-gen-large.png", 
-            "/static/images/game-show-app/api-gen-filtered-large.png", 
-            "/static/images/game-show-app/api-gen-popupmodal-large.png",
-            "/static/images/game-show-app/game-show-app-thumbnail.png"
+            "/static/images/API-user-generator/api-gen-large.png", 
+            "/static/images/API-user-generator/api-gen-filtered-large.png", 
+            "/static/images/API-user-generator/api-gen-popupmodal-large.png",
+            "/static/images/API-user-generator/api-gen-thumbnail.png"
             ]
 
         },
