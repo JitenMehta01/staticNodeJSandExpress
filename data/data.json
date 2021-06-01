@@ -1,0 +1,79 @@
+{
+    "projects_data":[
+        {
+            "id": 0,
+            "project_name": "Data Pagination and Filtering", 
+            "description": "In this project, I use a common web development technique known as “pagination” to enhance the usability of a web page.", 
+            "technologies": ["HTML", "CSS", "JavaScript"], 
+            "live_link": "https://jitenmehta01.github.io/data-pagination-project/", 
+            "github_link": "https://github.com/JitenMehta01/data-pagination-project", 
+            "image_urls": [
+            "/static/images/data-pag/data-page-large.png", 
+            "/static/images/data-pag/data-page-filtered-large.png", 
+            "/static/images/data-pag/data-pageNumbers-large.png",
+            "/static/images/data-pag/image-pag-thumbnail.png"
+            ]
+
+        }, 
+        {
+            "id": 1,
+            "project_name": "Interactive Form", 
+            "description": "In this project, I used my skills to enhance a form so that it’s engaging, interactive, and easy to use.", 
+            "technologies": ["HTML", "CSS", "JavaScript, Regex"], 
+            "live_link": "https://jitenmehta01.github.io/full-stack-conference-form/", 
+            "github_link": "https://github.com/JitenMehta01/full-stack-conference-form", 
+            "image_urls": [
+            "/static/images/interactive-form/interactive-form-large.png", 
+            "/static/images/interactive-form/interactive-form-logic-large.png", 
+            "/static/images/interactive-form/interactive-form-regex-large.png",
+            "/static/images/interactive-form/interactive-form-thumbnail.png"
+            ]
+
+        }, 
+        {
+            "id": 2,
+            "project_name": "OOP Game Show App", 
+            "description": "I have created a word guessing game: \"Phrase Hunter.\" Using JavaScript and OOP (Object-Oriented Programming), users have to uncover a random, hidden phrase.", 
+            "technologies": ["HTML", "CSS", "JavaScript, OOJ"], 
+            "live_link": "https://jitenmehta01.github.io/oop-word-guessing-game/", 
+            "github_link": "https://github.com/JitenMehta01/oop-word-guessing-game", 
+            "image_urls": [
+            "/static/images/game-show-app/start-game-large.png", 
+            "/static/images/game-show-app/playing-game-large.png", 
+            "/static/images/game-show-app/game-end-large.png",
+            "/static/images/game-show-app/game-show-app-thumbnail.png"    
+            ]
+
+        }, 
+        {
+            "id": 3,
+            "project_name": "Public API Requests", 
+            "description": "Using JavaScript, I have created an employee directory by communicating with a third-party API (Application Programming Interface).", 
+            "technologies": ["HTML", "CSS", "JavaScript", "AJAX"], 
+            "live_link": "https://jitenmehta01.github.io/api-request/", 
+            "github_link": "https://github.com/JitenMehta01/oop-word-guessing-game", 
+            "image_urls": [
+            "/static/images/game-show-app/api-gen-large.png", 
+            "/static/images/game-show-app/api-gen-filtered-large.png", 
+            "/static/images/game-show-app/api-gen-popupmodal-large.png",
+            "/static/images/game-show-app/game-show-app-thumbnail.png"
+            ]
+
+        },
+        {
+            "id": 4,
+            "project_name": "WebApp Dashboard", 
+            "description": " The project involves creating tables, charts, graphics and other user interface components in a manner that promotes interactivity and usability.", 
+            "technologies": ["HTML", "CSS Grid", "JavaScript"], 
+            "live_link": "https://jitenmehta01.github.io/web-dashbaord-app/", 
+            "github_link": "https://github.com/JitenMehta01/web-dashbaord-app", 
+            "image_urls": [
+            "/static/images/web-app/web-app-large.png", 
+            "/static/images/web-app/web-app-charts-large.png", 
+            "/static/images/web-app/web-app-form-large.png",
+            "/static/images/web-app/web-app-thumbnail.png"
+            ]
+
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "staticnodeandexpress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JitenMehta01/staticNodeJSandExpress.git"
+  },
+  "author": "Jiten Mehta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JitenMehta01/staticNodeJSandExpress/issues"
+  },
+  "homepage": "https://github.com/JitenMehta01/staticNodeJSandExpress#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2"
+  }
+}
